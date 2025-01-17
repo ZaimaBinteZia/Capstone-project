@@ -72,3 +72,51 @@ figure img {
     border-radius: 5px;
     box-shadow: 1px 1px 7px rgba(16, 52, 4, 0.918);
 }
+
+.socialmedia {
+    background-color: rgb(3, 70, 37);
+    padding: 5px;
+    color: beige;
+}
+
+.socialmediacontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.socialmediacontainer div {
+    padding: 15px;
+    border: 2px solid rgb(12, 24, 1);
+    border-radius: 15px;
+    margin: 10px;
+    background-color: beige;
+    color: black;
+}
+
+.main_content {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 60px;
+}
+
+.main_content section {
+    box-shadow: 5px 5px 7px rgb(65, 99, 69);
+    padding: 40px;
+}
+
+.main_content h5 {
+    border-bottom: 2px solid rgba(3, 51, 23, 0.288);
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(3, 70, 37);
+    color: beige;
+    text-align: center;
+    border-top: 1px solid rgba(245, 245, 220, 0.537);
+}
+
+footer a {
+    font-size: 12px;
+    color: whitesmoke;
+}
